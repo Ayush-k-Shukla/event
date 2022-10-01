@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 50px;
+
+  .titletext {
+    color: #4f4f4f;
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    gap: 20px;
+
+    .fileInput {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      border-radius: 50%;
+    }
+  }
+}
